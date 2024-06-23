@@ -33,13 +33,13 @@ const CarRentalHero = () => {
             <img
               src="https://i.pinimg.com/originals/56/6c/50/566c5067853ed821ade77b7fa804d629.png"
               alt="Luxury Car"
-              className="mt-8 -ml-20 sm:-ml-20 lg:-ml-60 w-full max-w-[100%]"
+              className="mt-8 sm:-ml-20 lg:-ml-60 w-full max-w-[100%]"
             />
           </div>
         </div>
 
         {/* Bottom Search Bar */}
-        <div className="mt-12 bg-gray-800 rounded-full p-2 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
+        <div className="mt-12 md:bg-gray-800 rounded-full p-2 flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
           <div className="w-full sm:flex-1 px-4">
             <select className="bg-transparent text-black font-bold border-0 w-full outline-none py-2">
               <option>Coimbatore</option>
